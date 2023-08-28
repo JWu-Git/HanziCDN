@@ -5650,32 +5650,32 @@ HanziLookup.DrawingBoard = function (e, t) {
   'use strict';
   function n() {
     h.clearRect(0, 0, h.canvas.width, h.canvas.height);
-    h.setLineDash([1, 1]);
-    h.lineWidth = 0;
-    h.strokeStyle = 'white';
-    h.beginPath(),
-    h.moveTo(0, 0),
-    h.lineTo(h.canvas.width, 0),
-    h.lineTo(h.canvas.width, h.canvas.height),
-    h.lineTo(0, h.canvas.height),
-    h.lineTo(0, 0),
-    h.stroke(),
-    h.beginPath(),
-    h.moveTo(0, 0),
-    h.lineTo(h.canvas.width, h.canvas.height),
-    h.stroke(),
-    h.beginPath(),
-    h.moveTo(h.canvas.width, 0),
-    h.lineTo(0, h.canvas.height),
-    h.stroke(),
-    h.beginPath(),
-    h.moveTo(h.canvas.width / 2, 0),
-    h.lineTo(h.canvas.width / 2, h.canvas.height),
-    h.stroke(),
-    h.beginPath(),
-    h.moveTo(0, h.canvas.height / 2),
-    h.lineTo(h.canvas.width, h.canvas.height / 2),
-    h.stroke();
+    // h.setLineDash([1, 1]);
+    // h.lineWidth = 0;
+    // h.strokeStyle = 'white';
+    // h.beginPath(),
+    // h.moveTo(0, 0),
+    // h.lineTo(h.canvas.width, 0),
+    // h.lineTo(h.canvas.width, h.canvas.height),
+    // h.lineTo(0, h.canvas.height),
+    // h.lineTo(0, 0),
+    // h.stroke(),
+    // h.beginPath(),
+    // h.moveTo(0, 0),
+    // h.lineTo(h.canvas.width, h.canvas.height),
+    // h.stroke(),
+    // h.beginPath(),
+    // h.moveTo(h.canvas.width, 0),
+    // h.lineTo(0, h.canvas.height),
+    // h.stroke(),
+    // h.beginPath(),
+    // h.moveTo(h.canvas.width / 2, 0),
+    // h.lineTo(h.canvas.width / 2, h.canvas.height),
+    // h.stroke(),
+    // h.beginPath(),
+    // h.moveTo(0, h.canvas.height / 2),
+    // h.lineTo(h.canvas.width, h.canvas.height / 2),
+    // h.stroke();
   }
   function o(e, t) {
      (u = !0),
